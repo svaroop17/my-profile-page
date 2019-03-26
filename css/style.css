@@ -1686,7 +1686,7 @@ span.icon_g_plus {
     border-bottom-color: #5fad56;
 }
 .progress.gray .progress-bar:after {
-    border-bottom-color: #D3D3D3;
+    border-bottom-color: #808080;
 }
 .progress.yellow .progress-bar:after {
     border-bottom-color: #e8d324;
