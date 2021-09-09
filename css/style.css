@@ -1482,7 +1482,7 @@ span.icon_facebook {
     background: #3b5998;
 }
 span.icon_github {
-
+    color: white;
 }
 span.icon_linkedin {
     background:  #007BB6;
@@ -1503,7 +1503,6 @@ span.icon_g_plus {
 .footer-social ul li span {
     border: white solid thin;
     margin-right: 10px;
-    color: #fff;
     padding: 10px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1557,19 +1556,23 @@ span.icon_g_plus {
     font-size: 43px;
 }
 .social ul {
+    display: flex;
+    justify-content: center;
     text-align: center;
 /*    border: white solid thin;*/
-    overflow: auto;
-    width: 90px;
+    overflow: unset;
+    width: 300px;
     margin: auto;
     margin-top: 20px;
 }
-.social ul li:first-child a span{
+.social ul li {
+    height: 32px;
+    width: 32px;
+    padding: 0 25px;
+}
+.social ul li a span{
     font-size:35px; 
     background-color: black;
-    color: white;
-    margin-right: 10px;
-    padding-left: 8px;
 }
 .social ul li:last-child a span {
     font-size:15px; 
@@ -1579,7 +1582,6 @@ span.icon_g_plus {
     background: #007BB6;
     border-radius: 50%;
     padding-top: 8px;
-    padding-left: 2px;
     margin-top: 2px;
     text-align: center;
 }
@@ -1688,6 +1690,9 @@ span.icon_g_plus {
 .progress.gray .progress-bar:after {
     border-bottom-color: #808080;
 }
+.progress.codeignitor-brown .progress-bar:after {
+    border-bottom-color: #493535;
+}
 .progress.yellow .progress-bar:after {
     border-bottom-color: #e8d324;
 }
@@ -1698,14 +1703,20 @@ span.icon_g_plus {
 .progress.red .progress-bar:after {
     border-bottom-color: red;
 }
+.progress.laravel-red .progress-bar:after {
+    border-bottom-color: red;
+}
 .progress.cyan .progress-bar:after {
     border-bottom-color: cyan;
+}
+.progress.bootstrap-violet .progress-bar:after {
+    border-bottom-color:  #8011f5;
 }
 .progress.violet .progress-bar:after {
     border-bottom-color:  blueviolet;
 }
 .progress.orange .progress-bar:after {
-    border-bottom-color: darkorange;
+    border-bottom-color: orange;
 }
 .progress.magenta .progress-bar:after {
     border-bottom-color:  magenta;
@@ -1715,6 +1726,18 @@ span.icon_g_plus {
 }
 .progress.lime .progress-bar:after {
     border-bottom-color:     lime;
+}
+.progress.mysql-blue .progress-bar:after{
+    border-bottom-color: #005e86;
+}
+.progress.vue-green .progress-bar:after{
+    border-bottom-color: #2b7b58;
+}
+.progress.vuex-green .progress-bar:after{
+    border-bottom-color: #83c57b;
+}
+.progress.inertia-lavendar .progress-bar:after{
+    border-bottom-color: #6d74ed;
 }
 
 @-webkit-keyframes animate-positive {
