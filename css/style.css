@@ -1123,8 +1123,10 @@ margin-bottom:1em;
 .company_address p {
 font-size: 1.0em;
 color: black;
+padding-left: 20px;
 font-family: 'Lato', sans-serif;
 line-height: 2.2em;
+background: rgba(255,255,255,0.2);
 }
 .company_address p a{
     color: #00b9ef;
@@ -1691,26 +1693,41 @@ span.icon_g_plus {
     border-bottom-color: #808080;
 }
 .progress.codeignitor-brown .progress-bar:after {
-    border-bottom-color: #493535;
+    border-bottom-color: #dd4814;
 }
-.progress.yellow .progress-bar:after {
-    border-bottom-color: #e8d324;
+.progress.javascript-yellow .progress-bar:after {
+    border-bottom-color: #f3e5ab;
 }
 
-.progress.blue .progress-bar:after {
-    border-bottom-color: #3485ef;
+.progress.css-blue .progress-bar:after {
+    border-bottom-color: #254bdd;
 }
 .progress.red .progress-bar:after {
     border-bottom-color: red;
 }
 .progress.laravel-red .progress-bar:after {
-    border-bottom-color: red;
+    border-bottom-color: #f72c1f;
 }
-.progress.cyan .progress-bar:after {
-    border-bottom-color: cyan;
+.progress.php .progress-bar:after {
+    border-bottom-color: #7377ad;
+}
+.progress.jquery-blue .progress-bar:after {
+    border-bottom-color: #0865a7;
+}
+.progress.ajax-blue .progress-bar:after {
+    border-bottom-color: #4180b8;
+}
+.progress.json-silver .progress-bar:after {
+    border-bottom-color: #aeaeae;
+}
+.progress.c-blue .progress-bar:after {
+    border-bottom-color: #6295cb;
+}
+.progress.csharp-green .progress-bar:after {
+    border-bottom-color: #1d9924;
 }
 .progress.bootstrap-violet .progress-bar:after {
-    border-bottom-color:  #8011f5;
+    border-bottom-color:  #8411f6;
 }
 .progress.violet .progress-bar:after {
     border-bottom-color:  blueviolet;
@@ -1730,8 +1747,14 @@ span.icon_g_plus {
 .progress.mysql-blue .progress-bar:after{
     border-bottom-color: #005e86;
 }
+.progress.html-orange .progress-bar:after{
+    border-bottom-color: #dd4b25;
+}
 .progress.vue-green .progress-bar:after{
     border-bottom-color: #2b7b58;
+}
+.progress.nuxt-green .progress-bar:after{
+    border-bottom-color: #00bf8a;
 }
 .progress.vuex-green .progress-bar:after{
     border-bottom-color: #83c57b;
