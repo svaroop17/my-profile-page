@@ -1479,7 +1479,9 @@ ul.w3-links li a i.fa:hover {
 span.icon_twitter {
     background: #1da1f2;
 }
-
+span.icon_youtube {
+    background: #ff0000 !important;
+}
 span.icon_facebook {
     background: #3b5998;
 }
@@ -1574,14 +1576,12 @@ span.icon_g_plus {
 }
 .social ul li a span{
     font-size:35px; 
-    background-color: black;
 }
 .social ul li:last-child a span {
     font-size:15px; 
     color: white;
     height: 32px;
     width: 32px;
-    background: #007BB6;
     border-radius: 50%;
     padding-top: 8px;
     margin-top: 2px;
